@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stack</title>
+
+    <!-- External Stylesheets -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&family=Montserrat:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Overpass&family=Permanent+Marker&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Rubik+Iso&family=Silkscreen&display=swap" rel="stylesheet">
+
+    <!-- Internal Stylesheet -->
+    <link rel="stylesheet" href="css/main.css">
+    <script src="/js/main.js"></script>
+</head>
+<body>
+    <div class="overlay">
+        <nav>
+            <div class="logo"></div>
+            <nav class="nav-list">
+                <ul>
+                    <li><a class="gwite" href="pages/signin.html">Sign In</a></li>
+                    <li><a class="gwite" href="pages/make.html">Make your Own</a></li>
+                </ul>
+            </nav>
+        </nav>
+
+        <header>
+            <a class="inverted-2 button" href="pages/make.html">Make Your Own Now!</a>
+            <div id="totalOrder"></div>
+        </header>
+        <div class="about">
+        <h1>About Us</h1>
+        </div>
+        <div class="text">
+        <p>Formed in die the 20s centary and a world wide food chaine come and join us!<br>Why just sit there and why are you not ordering one of the best subs that money could buy!<br>Even better make your own Sandwiches if you dont like what you see!</p>
+        </div>
+        <div class="container">
+            <h1>Popular Sandwiches</h1>
+            <h4>The most Popular Sandwiches of the Month</h4>
+            <div class="row">
+                <div class="col-3 custom-image-15"></div>
+                <div class="col-3 sub">
+                    <h1>Twins</h1>
+                    <p>There is nothing better than a feast of breakfast to start the day.</p>
+                    <p>R46</p>
+                    <!-- <a  class="inverted-2 button-2" href="pages/checkout.html" id="bun1">Buy</a> -->
+                    <div onclick="bun1()" class="inverted-2 button-2" data-cost="46">Buy</div>
+                    
+                </div>
+
+                <div class="col-3 custom-image-14"></div>
+                <div class="col-3">
+                    <h1>Sloppy Jo</h1>
+                    <p>There is nothing better than a feast of breakfast to start the day.</p>
+                    <p>R50</p>
+                    <!-- <a class="inverted-2 button-2" href="pages/checkout.html">Buy</a> -->
+                    <div onclick="bun2()" class="inverted-2 button-2" data-cost="50">Buy</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3 custom-image-11"></div>
+                <div class="col-3">
+                    <h1>tamato Feast</h1>
+                    <p>There is nothing better than a feast of breakfast to start the day.</p>
+                    <p>R49</p>
+                    <a class="inverted-2 button-2" href="pages/checkout.html" data-cost="49">Buy</a>
+                </div>
+
+                <div class="col-3 custom-image-12"></div>
+                <div class="col-3">
+                    <h1>Onion Meat</h1>
+                    <p>There is nothing better than a feast of breakfast to start the day.</p>
+                    <p>R34</p>
+                    <a class="inverted-2 button-2" href="pages/checkout.html" data-cost="34">Buy</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3 custom-image-13"></div>
+                <div class="col-3">
+                    <h1>Just Meat</h1>
+                    <p>There is nothing better than a feast of breakfast to start the day.</p>
+                    <p>R25</p>
+                    <a class="inverted-2 button-2" href="pages/checkout.html" data-cost="25">Buy</a>
+                </div>
+
+                <div class="col-3 custom-image-1"></div>
+                <div class="col-3">
+                    <h1>Something Meaty</h1>
+                    <p>Who doesn't love meat?</p>
+                    <p>R40</p>
+                    <a class="inverted-2 button-2" href="pages/checkout.html" data-cost="40">Buy</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3 custom-image-2"></div>
+                <div class="col-3">
+                    <h1>Meat Splitter</h1>
+                    <p>Made with Mamma's love!!</p>
+                    <p>R42</p>
+                    <a class="inverted-2 button-2" href="pages/checkout.html" data-cost="42">Buy</a>
+                </div>
+
+                <div class="col-3 custom-image"></div>
+                <div class="col-3">
+                    <h1>Breakfast Feast</h1>
+                    <p>Spoil yourself with this feast  and feel like a king!</p>
+                    <p>R30</p>
+                    <a class="inverted-2 button-2" href="pages/checkout.html" data-cost="30">Buy</a>
+                </div>
+            </div>
+          
+        </div>
+    </div>
+  
+</body>
+</html>

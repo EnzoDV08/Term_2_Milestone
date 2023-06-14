@@ -1,0 +1,100 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../sandwich_img/abstract-texture-illustration-curved-lines-hand-drawing-white-background_720095-257.avif);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.logo{
+    width: 300px;
+    height: 100px;
+    float: left;
+    background-image: url(../sandwich_img/Untitled-6.png);
+    background-position: center;
+    background-size: cover;
+    margin-left: 30px;
+}
+
+nav{
+    width: 100%;
+    height:40px;
+}
+
+
+
+
+a{
+    text-decoration: none !important;
+    
+}
+
+
+
+.gwite{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+li:hover {
+   
+    cursor: pointer;
+    background-color: transparent;
+    color: #fff;
+}
+
+.gwite:hover{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+ 
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    height: 500px;
+    margin-left: 650px;
+    margin-top: 150px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  
+  button[type="submit"] {
+    background-color: #B06B1C;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+
+
+
+
+
+
+
